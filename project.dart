@@ -1,3 +1,7 @@
+import 'Company.dart';
+import 'Job.dart';
+import 'Profile.dart';
+
 //Create 3 Company
 Company google = Company('Google', 500);
 Company yandex = Company('Yandex', 100);
@@ -23,7 +27,7 @@ List<Company> companyList = [google, yandex, rambler];
 returnProfile2(String companyName) {
   List<Profile> foundProfile = [];
   for (Profile p in profileList) {
-    if (p.job!.company!.name == companyName) {
+    if (p.job.company.name == companyName) {
       foundProfile.add(p);
     }
   }
@@ -40,7 +44,7 @@ returnProfile(String companyName) {
   }
   List<Profile> foundProfile = [];
   for (Profile p in profileList) {
-    if (p.job!.company == foundCompany) {
+    if (p.job.company == foundCompany) {
       foundProfile.add(p);
     }
   }

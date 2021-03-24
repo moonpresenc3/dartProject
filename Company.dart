@@ -3,9 +3,9 @@ class Company {
   String? name;
   int? size;
 
-  Company(String n, int s) {
-    name = n;
-    size = s;
+  Company(String nameCompany, int sizeCompany) {
+    name = nameCompany;
+    size = sizeCompany;
   }
 
   void display() {
