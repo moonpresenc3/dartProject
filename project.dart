@@ -4,7 +4,7 @@ import 'Profile.dart';
 
 //Create 3 Company
 Company google = Company('Google', 500);
-Company yandex = Company('Yandex', 100);
+Company yandex = Company('Yandex');
 Company rambler = Company('Rambler', 250);
 
 //Create 5 Profile
