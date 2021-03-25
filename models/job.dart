@@ -1,5 +1,5 @@
 //Create class Job+Constructor
-import 'Company.dart';
+import 'company.dart';
 
 class Job {
   String? position;

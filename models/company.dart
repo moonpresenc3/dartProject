@@ -1,4 +1,4 @@
-// // //Create class Company+Constructor
+//Create class Company+Constructor
 class Company {
   String? name;
   int? size;

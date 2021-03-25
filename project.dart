@@ -1,6 +1,6 @@
-import 'Company.dart';
-import 'Job.dart';
-import 'Profile.dart';
+import 'models/company.dart';
+import 'models/job.dart';
+import 'models/profile.dart';
 
 //Create 3 Company
 Company google = Company('Google', 500);

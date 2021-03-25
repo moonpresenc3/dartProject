@@ -1,6 +1,6 @@
 //Create class Profile+Constructor
-import 'Company.dart';
-import 'Job.dart';
+import 'company.dart';
+import 'job.dart';
 
 class Profile {
   String? firstName;
